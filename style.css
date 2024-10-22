@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: greenyellow;
+}
+
+.game-board {
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+#reset-button{
+    background-color: rgb(112, 196, 112);
+    color: #f0f0f0;
+}
+
